@@ -162,10 +162,6 @@ void Setup(AlxWindow* w){
 }
 
 void Update(AlxWindow* w){
-	if (Stroke(ALX_KEY_F11).DOWN){
-	    AlxWindow_SetFullscreen(w);
-	}
-
     if (Stroke(ALX_KEY_A).DOWN)
 		fPlayerA -= (fSpeed * 0.75f) * w->ElapsedTime;
 
