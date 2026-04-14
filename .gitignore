@@ -14,9 +14,6 @@
 *.bak
 *.swp
 
-# Editor/IDE-Dateien
-build/*
-
 .vscode/
 *.log
 *.DS_Store
